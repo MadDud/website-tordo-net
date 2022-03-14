@@ -8,23 +8,29 @@ body {background-color: #111; font-family: sans-serif; padding:0pt; margin: 0pt}
 h1   {color: lightblue;}
 img.logo { width:200px }
 div.main {
-  	margin: 0pt;
+  	margin: 100pt 0pt 0pt 0pt;
   	width: 100%;
   	border: 0pt;
   	padding: 20pt 0pt;
   	text-align: center;
   	background-color: #151515
 	}
-div.split {
-  	margin: 0pt;
+div.footer {
+  	margin: 150pt 0pt 0pt 0pt;
+	padding: 20pt 0pt;
   	width: 100%;
   	text-align: center;
 	background-color: #131313; 
-	height: 100pt;
 	border: 0px solid;
+	color: #666;
 	}
 div.buttons {
-	text-align:center;
+  	margin: 0pt;
+  	width: 100%;
+	padding: 20pt 0pt;
+  	text-align: center;
+	background-color: #131313; 
+	border: 0px solid;
 	}
 hr.blue {
   border-color: #045453;
@@ -33,7 +39,11 @@ hr.blue {
 img.button {
 	width: 40pt;
 	}
-
+p.quote {
+	color: #777;
+	font-style: italic;
+	margin: 40pt 30% 0pt 30%;
+}
 a:link { color: lightblue; }
 a:visited { color: lightblue; }
 a:hover { color: #eee;}
@@ -42,19 +52,39 @@ a:active { color: yellow; }
 </head>
 
 <body>
-<div class="split"></div>
 <div class="main">
-<img class="logo" src="src/Tordo-logo-2022.png" alt="Tordo logo" />
-<h1>Tordo.net</h1>
+<img class="logo" src="src/Tordo-logo-2022-rectangle-500.png" alt="Tordo logo" />
+<p class="quote">
+
+<script language="JavaScript">
+<!--
+const quotes = [
+	"If something is free, you're not the customer; you're the product. - Schneier",
+	"If you ask amateurs to act as front-line security personnel, you shouldn't be surprised when you get amateur security - Schneier",
+	"Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say. - Snowden",
+	"Anything that can go wrong will go wrong. - Murphy's law",
+	"We're in the stone age of cyber security. Real learning will only come after the 1st major incident. - Frei",
+	"There are two kinds of people: those who backup, and those who have never lost all their data."
+	];
+
+var i = Math.floor(quotes.length*Math.random())
+document.write(quotes[i]);
+
+//-->
+</script>
+</p>
 <p>
+
 <!-- <a href="/admin">Admin panel</a> -->	
 </p>
 </div>
-
-<div class="split"></div>
 <hr class="blue" />
 <div class="buttons">
 <a href="https://console.jumpcloud.com/login"><img class="button" src="src/jc.png" alt="JC logo" /></a>
 </div>
+<div class="footer">
+<p>tordo.net</p>
+</div>
+
 </body>
 </html>
