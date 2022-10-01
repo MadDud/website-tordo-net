@@ -13,7 +13,7 @@ div.main {
   	border: 0pt;
   	padding: 20pt 0pt;
   	text-align: center;
-  	background-color: #1e1e1e
+  	background-color: #131313
 	}
 div.footer {
   	margin: 150pt 0pt 0pt 0pt;
@@ -24,12 +24,11 @@ div.footer {
 	border: 0px solid;
 	color: #666;
 	}
-div.buttons {
+div.quote {
   	margin: 0pt;
   	width: 100%;
-	padding: 20pt 0pt;
   	text-align: center;
-	background-color: #131313;
+	background-color: #1e1e1e;
 	border: 0px solid;
 	}
 hr.blue {
@@ -37,15 +36,17 @@ hr.blue {
   margin: 30px 20%;
 	}
 img.button {
-	/* width: 40pt; */
   height: 20pt;
   margin-left: 5pt;
   margin-right:5pt;
 	}
 p.quote {
 	color: #777;
+  font-size: 14pt;
 	font-style: italic;
-	margin: 40pt 30% 0pt 30%;
+	margin: 0pt 30% 0pt 30%;
+  line-height: 18pt;
+  padding: 20pt 0pt;
 }
 a:link { color: lightblue; }
 a:visited { color: lightblue; }
@@ -56,37 +57,36 @@ a:active { color: yellow; }
 
 <body>
 <div class="main">
+  <a href="https://tordo.net">
 <img class="logo" src="src/Tordo-logo-2022-rectangle-500.png" alt="Tordo logo" />
-<p class="quote">
-
-<script language="JavaScript">
-<!--
-const quotes = [
-	"If something is free, you're not the customer; you're the product. - Schneier",
-	"If you ask amateurs to act as front-line security personnel, you shouldn't be surprised when you get amateur security - Schneier",
-	"Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say. - Snowden",
-	"Anything that can go wrong will go wrong. - Murphy's law",
-	"We're in the stone age of cyber security. Real learning will only come after the 1st major incident. - Frei",
-	"There are two kinds of people: those who backup, and those who have never lost all their data."
-	];
-
-var i = Math.floor(quotes.length*Math.random())
-document.write(quotes[i]);
-
-//-->
-</script>
-</p>
+</a>
 <p>
-
 <!-- <a href="/admin">Admin panel</a> -->
 </p>
 </div>
 <hr class="blue" />
-<div class="buttons">
-	<a href="https://console.jumpcloud.com/login"><img class="button" src="src/jc2.png" alt="JC logo" /></a>
-	<a href="https://tordo.cloudflareaccess.com/"><img class="button" src="src/cloudflare-logo-6B7D159387-seeklogo.com.png" alt="CF logo" /></a>
-  <a href="https://splunk.tordo.net/"><img class="button" src="src/splunk.png" alt="Splunk logo" /></a>
 
+<div class="quote">
+  <p class="quote">
+  <script language="JavaScript">
+  <!--
+  const quotes = [
+  	"If something is free, you're not the customer; you're the product. - Schneier",
+  	"If you ask amateurs to act as front-line security personnel, you shouldn't be surprised when you get amateur security - Schneier",
+  	"Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say. - Snowden",
+  	"Anything that can go wrong will go wrong. - Murphy's law",
+  	"We're in the stone age of cyber security. Real learning will only come after the 1st major incident. - Frei",
+  	"There are two kinds of people: those who backup, and those who have never lost all their data.",
+    "Ransomware is more about manipulating vulnerabilities in human psychology than the adversary's technological sophistication - James Scott",
+    "There are only two different types of companies in the world: those that have been breached and know it and those that have been breached and don’t know it. - Hakan Akbas",
+    "One of the main cyber security risks is to think that they don’t exist. - NCC"
+  	];
+
+  var i = Math.floor(quotes.length*Math.random())
+  document.write(quotes[i]);
+  //-->
+  </script>
+  </p>
 </div>
 <div class="footer">
 <p>tordo.net</p>
