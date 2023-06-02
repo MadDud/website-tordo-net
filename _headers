@@ -1,6 +1,8 @@
-/
+/*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   Referrer-Policy: same-origin
   Access-Control-Allow-Origin: https://tordo.net
+  Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+
