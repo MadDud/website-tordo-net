@@ -3,5 +3,5 @@
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   Referrer-Policy: same-origin
   Access-Control-Allow-Origin: https://tordo.net
-  Content-Security-Policy: object-src 'self'; script-src https://static.cloudflareinsights.com/beacon.min.js 'sha256-tk/hsEANQ9gWT9q7UwXazTTHt2OPjdg6XD356e/YPrE='; frame-ancestors 'none'; upgrade-insecure-requests;
+  Content-Security-Policy: object-src 'self'; script-src https://static.cloudflareinsights.com/beacon.min.js 'sha256-tk/hsEANQ9gWT9q7UwXazTTHt2OPjdg6XD356e/YPrE='; frame-ancestors 'none'; upgrade-insecure-requests; form-action 'none';
   Permissions-Policy: microphone=(), camera=(), geolocation=()
