@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 <title>Tordo.net</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <style>
 body {background-color: #111; font-family: sans-serif; padding:0pt; margin: 0pt}
 h1   {color: lightblue;}
 img.logo { width:200px }
 div.main {
-  	margin: 50pt 0pt 0pt 0pt;
+  	margin: 20pt 0pt 0pt 0pt;
   	width: 100%;
   	border: 0pt;
   	padding: 20pt 0pt;
@@ -16,6 +17,8 @@ div.main {
   	background-color: #131313
 	}
 div.footer {
+	position: fixed; 
+	bottom: 0;
   	margin: 150pt 0pt 0pt 0pt;
 	padding: 20pt 0pt;
   	width: 100%;
@@ -25,15 +28,17 @@ div.footer {
 	color: #666;
 	}
 div.quote {
-  	margin: 0pt;
-  	width: 100%;
+	
+  	margin: auto;
+  	max-width: 500pt;
   	text-align: center;
 	background-color: #1e1e1e;
 	border: 0px solid;
+	border-color: #fff;
 	}
 hr.blue {
   border-color: #045453;
-  margin: 30px 20%;
+  margin: 30px 10%;
 	}
 img.button {
   height: 20pt;
@@ -41,10 +46,10 @@ img.button {
   margin-right:5pt;
 	}
 p.quote {
-	color: #777;
+  color: #777;
   font-size: 14pt;
-	font-style: italic;
-	margin: 0pt 30% 0pt 30%;
+  font-style: italic;
+  margin: 0pt 10% 0pt 10%;
   line-height: 18pt;
   padding: 20pt 0pt;
 }
@@ -62,6 +67,7 @@ a:active { color: yellow; }
 </a>
 <p>
 <!-- <a href="/admin">Admin panel</a> -->
+<!-- <a href="https://kb.tordo.net">Knowledge Base Tordo</a> -->
 </p>
 </div>
 <hr class="blue" />
