@@ -58,8 +58,10 @@
       flex: 1;
       width: 100%;
       display: flex;
-      justify-content: center;
-      align-items: flex-start;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 30px;
     }
 
     div.quote {
@@ -100,6 +102,9 @@
     a:active {
       color: var(--link-active);
     }
+    img.book-icon {
+      filter: brightness(0.4);
+    }
   </style>
 </head>
 <body>
@@ -137,6 +142,9 @@
   </script>
 </p>
     </div>
+
+  <a href="https://library.tordo.net"><img class="book-icon" src="/src/book.svg" alt="Book icon" /></a>
+
   </main>
 
   <footer class="footer">
